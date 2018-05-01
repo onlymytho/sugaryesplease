@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <script src="./static/js/getJSON.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            postJSON(
+                "https://gtl2w1r4ae.execute-api.ap-northeast-2.amazonaws.com/dev/test",
+                "email=abc@test.com&first_name=sanghyuk&last_name=jung",
+                callback_handling);
+            
+            var callback_handling = function(err, data) {
+              if (err != null) {
+                  alert('Something went wrong: ' + err);
+              }
+              else {
+                  alert(data)
+              }
+            };
+        </script>
+    </head>
+    <body>
+        <div class="">
+            <h1></h1>
+            <p></p>
+        </div>
+    </body>
+</html>

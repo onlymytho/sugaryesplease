@@ -1,0 +1,232 @@
+/* Network 중 i 라는 이름의 요청Header. 아래 내용을 analytics(segment.io)서비스에 request:POST 하는 요청. */
+{
+    "integrations":{
+    },
+    "context":{
+        "page":{
+            "path":"/recommendations/astaxanthin",
+            "referrer":"https://takecareof.com/survey/new?question=calculating",
+            "search":"",
+            "title":"Care/of: Personalized Daily Vitamin Packs",
+            "url":"https://takecareof.com/recommendations/astaxanthin"
+        },
+        "userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36",
+        "library":{
+            "name":"analytics.js",
+            "version":"3.4.1"
+        }
+    },
+    "traits":{
+        "user_email":"eud@gma.com",
+        "email":"eud@gma.com",
+        "profile_email":"eud@gma.com",
+        "user_status":"lead",
+        "profile_created_at":"2018-04-24T09:27:51.000Z",
+        "profile_first_name":"Qow",
+        "first_name":"Qow",
+        "profile_gender":"female",
+        "profile_goals":[
+            "bone-topic-response",
+            "stress-topic-response",
+            "digestion-topic-response",
+            "skin-topic-response",
+            "heart-topic-response"
+        ],
+        "profile_primary_goal":"heart-most-important",
+        "profile_id":9577904,
+        "profile_last_name":null,
+        "last_name":null,
+        "profile_recommendations":[
+            "Astaxanthin",
+            "Garlic",
+            "Prenatal",
+            "B-Complex",
+            "Ashwagandha",
+            "Probiotic Blend",
+            "Calcium Plus"
+        ],
+        "profile_survey_source":"how-did-you-hear-about-us-other",
+        "days_remaining_for_reward":null,
+        "vitamin_reminder_notifications_enabled":false,
+        "near_reward_notifications_enabled":false,
+        "company_updates_notifications_enabled":false,
+        "new_product_notifications_enabled":false,
+        "day_almost_over_notifications_enabled":false,
+        "new_features_notifications_enabled":false,
+        "order_status_notifications_enabled":false,
+        "time_zone":null,
+        "vitamin_reminder_at":null,
+        "profile_age":84,
+        "pack_products":[
+            {
+                "id":"ashwagandha_1",
+                "name":"Ashwagandha",
+                "price":8,
+                "quantity":1,
+                "title":"Ashwagandha",
+                "url":"https://takecareof.com/products/ashwagandha_1"
+            },
+            {
+                "id":"astaxanthin_3-1",
+                "name":"Astaxanthin",
+                "price":10,
+                "quantity":1,
+                "title":"Astaxanthin",
+                "url":"https://takecareof.com/products/astaxanthin_3-1"
+            },
+            {
+                "id":"b-complex_3",
+                "name":"B-Complex",
+                "price":12,
+                "quantity":1,
+                "title":"B-Complex",
+                "url":"https://takecareof.com/products/b-complex_3"
+            },
+            {
+                "id":"bone-triad_2",
+                "name":"Calcium Plus",
+                "price":12,
+                "quantity":3,
+                "title":"Calcium Plus",
+                "url":"https://takecareof.com/products/bone-triad_2"
+            },
+            {
+                "id":"garlic_1",
+                "name":"Garlic",
+                "price":8,
+                "quantity":1,
+                "title":"Garlic",
+                "url":"https://takecareof.com/products/garlic_1"
+            },
+            {
+                "id":"prenatal_1",
+                "name":"Prenatal",
+                "price":25,
+                "quantity":2,
+                "title":"Prenatal",
+                "url":"https://takecareof.com/products/prenatal_1"
+            },{
+                "id":"probiotic_1",
+                "name":"Probiotic Blend",
+                "price":8,
+                "quantity":1,
+                "title":"Probiotic Blend",
+                "url":"https://takecareof.com/products/probiotic_1"
+            }],
+        "pack_total":83
+    },
+    "userId":null,
+    "anonymousId":"5d5778fd-91d5-4290-8980-3da71c315b04",
+    "timestamp":"2018-04-24T09:31:09.334Z",
+    "type":"identify",
+    "writeKey":"l4kkMh5zAefoiyRl6LRJc038L57m1ZdJ",
+    "sentAt":"2018-04-24T09:31:09.342Z",
+    "_metadata":{
+        "bundled":[
+            "AdWords",
+            "DoubleClick Floodlight",
+            "Facebook Pixel",
+            "Google Analytics",
+            "Google Tag Manager",
+            "Inspectlet",
+            "Mixpanel",
+            "Optimizely",
+            "Quantcast",
+            "Segment.io",
+            "ShareASale",
+            "Twitter Ads"
+        ],
+        "unbundled":[]
+    },
+    "messageId":"ajs-419c9a94147e1d6e15cf60de3addfc17"
+}
+
+
+
+guest_token=Ik1vVU1WOXpra1lVaTlDOU1iZEx2c3ci--21ccdaa01064ab44c42c36f0ce66f463fc35aed2;
+optimizelyEndUserId=oeu1524562073446r0.6028871628686658;
+optimizelySegments={"5441831033":"none","5416370614":"gc","5410970621":"direct","5406272798":"false"};
+optimizelyBuckets={};
+ajs_user_id=null;
+ajs_group_id=null;
+ajs_anonymous_id="5d5778fd-91d5-4290-8980-3da71c315b04";
+_ga=GA1.2.1481972558.1524562076;
+_gid=GA1.2.1064860802.1524562076;
+mp_b3db8272fda7e9b7f8c1ee07a7c1b145_mixpanel={
+    "distinct_id": "162f6fb210c3d1-095a9804c1338e-336c7b04-fa000-162f6fb210df00",
+    "mp_lib": "Segment: web",
+    "$initial_referrer": "$direct",
+    "$initial_referring_domain": "$direct",
+    "user_email": null,
+    "email": null,
+    "profile_email": null,
+    "user_status": "guest",
+    "profile_created_at": "2018-04-24T09:27:51.000Z",
+    "profile_first_name": null,
+    "first_name": null,
+    "profile_gender": null,
+    "profile_goals": null,
+    "profile_primary_goal": null,
+    "profile_id": 9577904,
+    "profile_last_name": null,
+    "last_name": null,
+    "profile_recommendations": [],
+    "profile_survey_source": null,
+    "days_remaining_for_reward": null,
+    "vitamin_reminder_notifications_enabled": false,
+    "near_reward_notifications_enabled": false,
+    "company_updates_notifications_enabled": false,
+    "new_product_notifications_enabled": false,
+    "day_almost_over_notifications_enabled": false,
+    "new_features_notifications_enabled": false,
+    "order_status_notifications_enabled": false,
+    "time_zone": null,
+    "vitamin_reminder_at": null,
+    "__mps": {"$os": "Mac OS X",
+        "$browser": "Chrome",
+        "$browser_version": 65,
+        "$initial_referrer": "$direct",
+        "$initial_referring_domain": "$direct",
+        "user_email": null,
+        "email": null,
+        "profile_email": null,
+        "user_status": "guest",
+        "profile_created_at": "2018-04-24T09:27:51.000Z",
+        "profile_first_name": null,
+        "first_name": null,
+        "profile_gender": null,
+        "profile_goals": null,
+        "profile_primary_goal": null,
+        "profile_id": 9577904,
+        "profile_last_name": null,
+        "last_name": null,
+        "profile_recommendations": [],
+        "profile_survey_source": null,
+        "days_remaining_for_reward": null,
+        "vitamin_reminder_notifications_enabled": false,
+        "near_reward_notifications_enabled": false,
+        "company_updates_notifications_enabled": false,
+        "new_product_notifications_enabled": false,
+        "day_almost_over_notifications_enabled": false,
+        "new_features_notifications_enabled": false,
+        "order_status_notifications_enabled": false,
+        "time_zone": null,
+        "vitamin_reminder_at": null},
+        "__mpso": {},
+        "__mpus": {},
+        "__mpa": {},
+        "__mpu": {},
+        "__mpap": []
+    };
+_session=ZXIrMWJMQXJ5WmY0WlFFMWdibU5UT3d2QmU0RmxJbFZiL2xQTUw5VGRPSTc1SUIzQ2Q0eTFPTk8raWtnc2Q5VnMxM1R0b1c1L0NrR1gvN2lYQ0pjT0V2YllzcGNMQ0VZSksySUVHeVd0QkhpcWJJeDd2amE1bVlLaTdFYTMvY2FjMUFUTkNxbGlmR0EyS0U3ZTBIK1JrWGJyOFJvRzVPMnJKd09ST3NRYU1XR3pzeTAva1JCMTdYTkFyOERZZC81WURHdGRlR21YVFl3YWdSVnoxRFEvR0d4OGpUWnpMZ0d2ZkZORjlNa1JaN3hMcDhwL3E2eXpYcCtmNkNWQ1c4RXFPNEgvejZSUWNrV0dscVM3ZWZUVzJtakpINjg5MndxR1dmT2M1cU52L1Y0V0N3NDc0S2gwb0YyRC8vbTZvZ2Q4b1U5Q1lFMnMyamNXNzF3Yy9RNVpRPT0tLWJpL0JoS291M0VqWlREd3pqSHRDVVE9PQ==--42170215ceb4aa1ac1188571042a189537d0714a;
+__insp_wid=1852824539;
+__insp_slim=1524562077372;
+__insp_nv=true;
+__insp_targlpu=aHR0cHM6Ly90YWtlY2FyZW9mLmNvbS9zdXJ2ZXkvbmV3;
+__insp_targlpt=Q2FyZS9vZjogUGVyc29uYWxpemVkIERhaWx5IFZpdGFtaW4gUGFja3M=;
+_litra_ses.6e8a=*;
+__qca=P0-958695295-1524562077465;
+__insp_norec_sess=true;
+uuid=a976b47c864b4fbbacae14968c372297;
+_scid=c51a9517-4cdf-4e61-8bca-238d26692639;
+_litra_id.6e8a=a-00uk--56e72569-14cf-4ecd-a176-44475368e6b5.1524562077.1.1524562081.1524562077.a0a986d6-7918-4fd3-a795-6cf0f40aac1b
